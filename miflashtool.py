@@ -27,6 +27,8 @@ def flash():
     os.system('./fastboot flash vendor_b images/vendor.img')
     os.system('./fastboot flash boot_b images/boot.img')
     os.system('./fastboot flash splash images/splash.img')
+    os.system('./fastboot erase userdata')
+    os.system('./fastboot flash userdata images/userdata.img')
     os.system('ls -a')
 flashb = Button(pencere, text = "Flash",font=fontduzeltmesi, command = flash).pack(side=LEFT,anchor=NW)
 
