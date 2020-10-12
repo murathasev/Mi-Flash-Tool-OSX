@@ -3,3 +3,5 @@
 
 # Installation 
 Put images folder in app folder, you done! Start flashing any fastboot rom
+
+[v1.0 download](https://github.com/murathasev/Mi-Flash-Tool-OSX/releases/tag/1.0)
